@@ -36,6 +36,7 @@ class MainApp(MDApp):
         self.switch_sub.active = False
 
     def build(self):
+        self.icon = 'bcalc_icon.ico'
         screen = MDScreen()
 
         self.toolbar = MDToolbar(
